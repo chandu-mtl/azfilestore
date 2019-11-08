@@ -2,8 +2,8 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "storageAccounts_filestorag33_name": {
-            "defaultValue": "filestorag33",
+        "storageAccounts_filestorag333_name": {
+            "defaultValue": "filestorag333",
             "type": "String"
         }
     },
@@ -12,7 +12,7 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2019-04-01",
-            "name": "[parameters('storageAccounts_filestorag33_name')]",
+            "name": "[parameters('storageAccounts_filestorag333_name')]",
             "location": "eastus",
             "sku": {
                 "name": "Premium_LRS",
